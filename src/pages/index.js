@@ -8,6 +8,7 @@ import Propagation from "../components/propagation";
 import Compliance from "../components/compliance";
 import Pest from "../components/Pest"
 import Team from "../components/team"
+import ExpCard from "../components/expCard"
 import Rellax from 'rellax'
 import wind from '../images/wind.jpg'
 import '../index.css'
@@ -19,10 +20,10 @@ const navStyle = { backgroundColor: `black`, borderColor: `#93F36C`, color: `#93
 const intro = { backgroundColor: `white`, backgroundImage: `url({ wind })` }
 const IndexPage = () => {
   return (
-    <main className='bgColor' >
+    <main className='bgColor' id='start' >
       <Navbar bg="black" expand="lg" className='navbar-dark sticky-top' >
         <Container >
-          <Navbar.Brand href="#"><img className="img-fluid" style={{ maxHeight: '3rem' }} src={logo} /></Navbar.Brand>
+          <Navbar.Brand href="#start"><img className="img-fluid" style={{ maxHeight: '3rem' }} src={logo} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -30,7 +31,7 @@ const IndexPage = () => {
               style={{ maxHeight: '100px', color: "white" }}
               navbarScroll
             >
-              <Nav.Link href="#action1">Home</Nav.Link>
+              <Nav.Link href="#start">Home</Nav.Link>
               <Nav.Link href="#propagation">Propagation Program</Nav.Link>
               <Nav.Link href="#metrc">Metrc & Code Compliance</Nav.Link>
               <Nav.Link href="#pest">Integrated Pest Management</Nav.Link>
@@ -42,15 +43,15 @@ const IndexPage = () => {
       </Navbar>
 
 
-      <div className="text-center pt-1  ">
+      <Container className="text-center pt-1  ">
         <img className='img-fluid whiteLogo rounded' src={blackLogo} />
-      </div>
+      </Container>
 
 
 
-      <Container className='pt-3'>
+      <Container className='pt-3 textStyle'>
         <div className='row'>
-          <Intro className='col cardBg' ></Intro>
+          <Intro className='col cardBg ' ></Intro>
         </div>
         <div id="propagation" className="row pt-5 ">
           <Propagation className='col cardBg'></Propagation>
@@ -63,6 +64,9 @@ const IndexPage = () => {
 
           <Pest className='col cardBg'></Pest>
 
+        </div>
+        <div id='exp' className="row pt-5 ">
+          <ExpCard className=''></ExpCard>
         </div>
         <div className="row pt-5 ">
           <div id='team' className='col '>

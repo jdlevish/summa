@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Tangerine:wght@700&display=swap');.textStyle{
+    font-family: 'BioRhyme', serif;
+}
 .back{
     background-image:url('./images/wind.jpg');
     background-repeat: no-repeat, repeat;
@@ -8,6 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .cardBg{
@@ -19,3 +23,14 @@
 .whiteLogo{
     opacity: .5;
 }
+.exp{
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(238, 246, 242, 0.8)),url('./images/exp.jpg');
+    height:40vh;
+    background-size: 100%, 100%;
+    background-repeat:no-repeat;
+    font-family: 'Tangerine', cursive;
+    font-size:4rem;
+}
+ul {
+    list-style-image: url('./images/label.svg');
+  }
