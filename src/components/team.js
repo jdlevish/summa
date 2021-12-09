@@ -4,10 +4,13 @@ import Tom from '../images/Tom.jpg'
 
 export default function Team() {
     return (
-        <div className="pt-5">
-            <div className='row '>
+        <div className="">
+            <div className='row   border-0  rounded p-3 shadow cardBg'>
+                <div className='col-md-6 col-sm-12  d-flex justify-content-center'>
+                    <img className='flex-left rounded shadow' src={Tom}></img>
+                </div>
 
-                <div className='col '>
+                <div className='col-md-6 col-sm-12 '>
                     <h2>Thomas Meade</h2>
                     <h3>Managing Partner/Co-Founder</h3>
                     <ul>
@@ -17,31 +20,33 @@ export default function Team() {
 
                     </ul>
                 </div>
-                <div className='col'>
-                    <img className='flex-left' src={Tom}></img>
-                </div>
+
+
+                <br />
             </div>
-            <br>
-            </br>
-            <div className='row'>
-                <div className='col  d-flex align-items-center '>
-                    <div>
+            <div className="pt-5">
 
-                        <h2>Damian Shroyer</h2>
-                        <h3>Partner/Co-Founder</h3>
-                        <ul >
-                            <li>Over 20 years experience in cannabis cultivation and construction</li>
-                            <li>He specializes in grow room design, layout and operations, construction design from ground up to TI, IPM/vector and nutrient identification issues, genetic selection and breeding programs. And all aspects of cultivation, from seed/clone to harvest.</li>
+                <div className='row border-0 rounded  p-3  shadow cardBg'>
+                    <div className='col-md-6 col-sm-12 pt-3 d-flex justify-content-center'>
+                        <img className='flex-right rounded shadow' src={Damian}></img>
+                    </div>
+                    <div className='col-md-6 col-sm-12  d-flex align-items-center pt-2'>
+                        <div>
+
+                            <h2>Damian Shroyer</h2>
+                            <h3>Partner/Co-Founder</h3>
+                            <ul >
+                                <li>Over 20 years experience in cannabis cultivation and construction</li>
+                                <li>He specializes in grow room design, layout and operations, construction design from ground up to TI, IPM/vector and nutrient identification issues, genetic selection and breeding programs. And all aspects of cultivation, from seed/clone to harvest.</li>
 
 
-                            <li>Damian’s plant knowledge and construction experience has made him a force to be reckoned with in the cannabis industry. </li>
+                                <li>Damian’s plant knowledge and construction experience has made him a force to be reckoned with in the cannabis industry. </li>
 
-                        </ul>
+                            </ul>
+                        </div>
+
                     </div>
 
-                </div>
-                <div className='col'>
-                    <img className='flex-right' src={Damian}></img>
                 </div>
             </div>
 

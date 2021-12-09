@@ -2,3 +2,20 @@
     background-image:url('./images/wind.jpg');
     background-repeat: no-repeat, repeat;
 }
+.bgColor{
+    /* background-image: linear-gradient(to bottom right, #FFFFFF, rgb(133, 136, 134)); */
+    background-image:url('./images/mj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardBg{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(238, 246, 242, 0.7));
+}
+.white{
+    background-color: #FFFFFF;
+}
+.whiteLogo{
+    opacity: .5;
+}

@@ -2,7 +2,7 @@ import * as React from "react";
 import { Nav, Navbar, Button, Container, NavDropdown, Form, FormControl } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../images/logo1.jpg'
-import whiteLogo from '../images/summawhite.jpg'
+import blackLogo from '../images/logo.jpg'
 import Intro from '../components/intro.js'
 import Propagation from "../components/propagation";
 import Compliance from "../components/compliance";
@@ -19,8 +19,8 @@ const navStyle = { backgroundColor: `black`, borderColor: `#93F36C`, color: `#93
 const intro = { backgroundColor: `white`, backgroundImage: `url({ wind })` }
 const IndexPage = () => {
   return (
-    <main >
-      <Navbar bg="black" expand="lg" className='navbar-dark' >
+    <main className='bgColor' >
+      <Navbar bg="black" expand="lg" className='navbar-dark sticky-top' >
         <Container >
           <Navbar.Brand href="#"><img className="img-fluid" style={{ maxHeight: '3rem' }} src={logo} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -35,52 +35,38 @@ const IndexPage = () => {
               <Nav.Link href="#metrc">Metrc & Code Compliance</Nav.Link>
               <Nav.Link href="#pest">Integrated Pest Management</Nav.Link>
               <Nav.Link href="#team">Our Team</Nav.Link>
-
-              {/* <NavDropdown title="N" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown> */}
-              {/* <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link> */}
             </Nav>
 
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
-      <Container >
-        <div className="text-center pt-5 ">
-          <img className='img-fluid' src={whiteLogo} />
-        </div>
-        <div className="text-center pt-3">
-          <h2>"We stand for the highest standards"</h2>
-        </div>
-      </Container>
 
-      <Container >
+      <div className="text-center pt-1  ">
+        <img className='img-fluid whiteLogo rounded' src={blackLogo} />
+      </div>
+
+
+
+      <Container className='pt-3'>
         <div className='row'>
-          <Intro className='col' ></Intro>
+          <Intro className='col cardBg' ></Intro>
         </div>
-        <div id="propagation" className="row">
-          <Propagation className='col'></Propagation>
+        <div id="propagation" className="row pt-5 ">
+          <Propagation className='col cardBg'></Propagation>
         </div>
-        <div id='metrc' className='row'>
+        <div id='metrc' className='row pt-5 '>
 
-          <Compliance className='col' ></Compliance>
+          <Compliance className='col  cardBg' ></Compliance>
         </div>
-        <div id='pest' className="row">
+        <div id='pest' className="row pt-5 ">
 
-          <Pest className='col'></Pest>
+          <Pest className='col cardBg'></Pest>
 
         </div>
-        <div className="row pt-4">
-          <div id='team' className='col'>
-            <Team></Team>
+        <div className="row pt-5 ">
+          <div id='team' className='col '>
+            <Team ></Team>
           </div>
         </div>
       </Container>
