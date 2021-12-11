@@ -21,16 +21,21 @@
     background-color: #FFFFFF;
 }
 .whiteLogo{
-    opacity: .5;
+    opacity: .7;
 }
 .exp{
     background-image:linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(238, 246, 242, 0.8)),url('./images/exp.jpg');
     height:40vh;
     background-size: 100%, 100%;
-    background-repeat:no-repeat;
+    background-repeat:cover;
     font-family: 'Tangerine', cursive;
     font-size:4rem;
 }
 ul {
     list-style-image: url('./images/label.svg');
+  }
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+    
   }

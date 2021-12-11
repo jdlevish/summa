@@ -10,7 +10,7 @@ import Pest from "../components/Pest"
 import Team from "../components/team"
 import ExpCard from "../components/expCard"
 import Rellax from 'rellax'
-import wind from '../images/wind.jpg'
+
 import '../index.css'
 
 const rellax = new Rellax('.rellax')
@@ -20,9 +20,9 @@ const navStyle = { backgroundColor: `black`, borderColor: `#93F36C`, color: `#93
 const intro = { backgroundColor: `white`, backgroundImage: `url({ wind })` }
 const IndexPage = () => {
   return (
-    <main className='bgColor' id='start' >
-      <Navbar bg="black" expand="lg" className='navbar-dark sticky-top' >
-        <Container >
+    <main className='bgColor ' id='start' >
+      <Navbar bg="black" expand="lg" className='navbar-dark sticky-top ' >
+        <Container className=''>
           <Navbar.Brand href="#start"><img className="img-fluid" style={{ maxHeight: '3rem' }} src={logo} /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -43,32 +43,35 @@ const IndexPage = () => {
       </Navbar>
 
 
-      <Container className="text-center pt-1  ">
-        <img className='img-fluid whiteLogo rounded' src={blackLogo} />
-      </Container>
 
 
 
-      <Container className='pt-3 textStyle'>
-        <div className='row'>
+
+
+      <Container className='  pt-3 textStyle g-0'>
+        <div className=" pt-1   pb-3  ">
+          <img className='img-fluid whiteLogo rounded ' src={blackLogo} />
+        </div>
+        <div className='row g-0'>
           <Intro className='col cardBg ' ></Intro>
         </div>
-        <div id="propagation" className="row pt-5 ">
+        <div id="propagation" className="row pt-5  g-0">
           <Propagation className='col cardBg'></Propagation>
         </div>
-        <div id='metrc' className='row pt-5 '>
+        <div id='exp' className="row pt-5 g-0 ">
+          <ExpCard className='col-sm-12  cardBg'></ExpCard>
+        </div>
+        <div id='metrc' className='row pt-5 g-0'>
 
           <Compliance className='col  cardBg' ></Compliance>
         </div>
-        <div id='pest' className="row pt-5 ">
+        <div id='pest' className="row pt-5 g-0">
 
           <Pest className='col cardBg'></Pest>
 
         </div>
-        <div id='exp' className="row pt-5 ">
-          <ExpCard className=''></ExpCard>
-        </div>
-        <div className="row pt-5 ">
+
+        <div className="row pt-5 g-0">
           <div id='team' className='col '>
             <Team ></Team>
           </div>
