@@ -49,7 +49,7 @@ const IndexPage = () => {
 
 
       <Container className='  pt-3 textStyle g-0'>
-        <div className=" pt-1   pb-3  ">
+        <div className=" pt-1   pb-3 d-flex justify-content-center">
           <img className='img-fluid whiteLogo rounded ' src={blackLogo} />
         </div>
         <div className='row g-0'>

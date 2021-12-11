@@ -34,8 +34,8 @@
 ul {
     list-style-image: url('./images/label.svg');
   }
-  .no-padding {
-    padding-left: 0;
+  .padding {
+    padding-left: 1rem;
     padding-right: 0;
     
   }
