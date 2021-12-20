@@ -7,7 +7,7 @@ const typog2 = { fontSize: '2rem' }
 
 export default function propagation() {
     return (
-        <div className=" pt-5 pb-5 flex border-0 rounded cardBg shadow ">
+        <div className=" pt-5 pb-5 flex border-0  cardBg shadow ">
 
             <h3 style={typog2} className="float-start pt-5 padding ">Propagation protection program</h3>
             <ul style={typog} className="float-start  ">

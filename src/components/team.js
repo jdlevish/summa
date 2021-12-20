@@ -5,12 +5,12 @@ import Tom from '../images/Tom.jpg'
 export default function Team() {
     return (
         <div className="">
-            <div className='row   border-0  rounded p-3 shadow cardBg'>
-                <div className='col-md-6 col-sm-12  d-flex justify-content-center'>
-                    <img className='flex-left rounded shadow' src={Tom}></img>
+            <div className='row   border-0    pt-3 pb-3 m-0 shadow cardBg'>
+                <div className='col-md-6 col-sm-12 pt-5  pb-5 d-flex justify-content-center'>
+                    <img className='flex-left rounded shadow img' src={Tom}></img>
                 </div>
 
-                <div className='col-md-6 col-sm-12 '>
+                <div className='col-md-6 col-sm-12   pt-5 pb-5'>
                     <h2>Thomas Meade</h2>
                     <h3>Managing Partner/Co-Founder</h3>
                     <ul>
@@ -24,13 +24,13 @@ export default function Team() {
 
                 <br />
             </div>
-            <div className="pt-5">
+            <div className="pt-3">
 
-                <div className='row border-0 rounded  p-3  shadow cardBg'>
-                    <div className='col-md-6 col-sm-12 pt-3 d-flex justify-content-center'>
-                        <img className='flex-right rounded shadow' src={Damian}></img>
+                <div className='row border-0   p-3 m-0 shadow cardBg'>
+                    <div className='col-md-6 col-sm-12 pt-5 pb-5 d-flex justify-content-center'>
+                        <img className='flex-left rounded shadow img' src={Damian}></img>
                     </div>
-                    <div className='col-md-6 col-sm-12  d-flex align-items-center pt-2'>
+                    <div className='col-md-6 col-sm-12  d-flex align-items-center pt-5 pb-5'>
                         <div>
 
                             <h2>Damian Shroyer</h2>

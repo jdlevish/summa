@@ -7,7 +7,7 @@ export default function intro() {
 
 
 
-        <div className="pt-1 pb-1 border-0 rounded cardBg shadow">
+        <div className="pt-1 pb-1 border-0  cardBg shadow">
             <div className="text-center ">
                 <h1>"We stand for the highest standards"</h1>
             </div>

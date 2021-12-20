@@ -4,7 +4,7 @@ const typog2 = { fontSize: '2rem' }
 
 export default function Pest() {
     return (
-        <div className="pt-5 border-0 rounded cardBg shadow">
+        <div className="pt-5 pb-5 border-0  cardBg shadow">
             <h2 style={typog2} className='padding'>Integrated Pest Management </h2>
             <ul style={typog}>
                 <li> Pest identification</li>

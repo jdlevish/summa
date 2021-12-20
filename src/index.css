@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Tangerine:wght@700&display=swap');.textStyle{
-    font-family: 'BioRhyme', serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Tangerine:wght@700&display=swap');.textStyle{
+    font-family:'Noto Sans', sans-serif;
 }
 .back{
     background-image:url('./images/wind.jpg');
@@ -22,6 +22,7 @@
 }
 .whiteLogo{
     opacity: .7;
+    width:100%;
 }
 .exp{
     background-image:linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(238, 246, 242, 0.8)),url('./images/exp.jpg');
@@ -39,3 +40,58 @@ ul {
     padding-right: 0;
     
   }
+  .img{
+      width:17rem;
+  }
+  .contact{
+      height:auto;
+     
+  }
+  input{
+    background-color: rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid black;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+  }
+  input:focus{
+    background-color: rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid black;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+  }
+ 
+  input:active{
+    background-color: rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid black;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+  }
+  input::after{
+    background-color: rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid black;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+  }
+  input:focus-visible{
+    background-color: rgba(255, 255, 255,0.0);
+    border-bottom: 1px solid black;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+
+  }
+  :focus-visible {
+    outline: none;
+    outline-color:none;
+    outline-style: none;
+    outline-width:none;
+}
+
