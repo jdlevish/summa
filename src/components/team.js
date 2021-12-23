@@ -5,7 +5,7 @@ import Tom from '../images/Tom.jpg'
 export default function Team() {
     return (
         <div className="">
-            <div className='row   border-0    pt-3 pb-3 m-0 shadow cardBg'>
+            <div data-sal='zoom-in' data-sal-delay="3000" data-sal-easing="ease" className='row   border-0    pt-3 pb-3 m-0 shadow cardBg '>
                 <div className='col-md-6 col-sm-12 pt-5  pb-5 d-flex justify-content-center'>
                     <img className='flex-left rounded shadow img' src={Tom}></img>
                 </div>
@@ -26,7 +26,7 @@ export default function Team() {
             </div>
             <div className="pt-3">
 
-                <div className='row border-0   p-3 m-0 shadow cardBg'>
+                <div data-sal='zoom-in' data-sal-delay="3000" data-sal-easing="ease" className='row border-0   p-3 m-0 shadow cardBg'>
                     <div className='col-md-6 col-sm-12 pt-5 pb-5 d-flex justify-content-center'>
                         <img className='flex-left rounded shadow img' src={Damian}></img>
                     </div>

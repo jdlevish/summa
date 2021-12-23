@@ -8,7 +8,7 @@ export default function contact() {
                 <div className='col text-align-center'>
                     <h2> Contact Us! </h2>
 
-                    <p> to learn more about our services get in touch with us below </p>
+                    <p> To learn more about our services get in touch with us below </p>
                 </div>
             </div>
             <div className=' pb-5'>

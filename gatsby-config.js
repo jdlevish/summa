@@ -14,6 +14,7 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    "gatsby-plugin-scroll-reveal",
     "gatsby-plugin-mdx",
     "gatsby-transformer-remark",
     "gatsby-plugin-sharp",
@@ -33,6 +34,12 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `40045544574`,
+      },
     },
   ],
 };
