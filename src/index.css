@@ -94,4 +94,8 @@ ul {
     outline-style: none;
     outline-width:none;
 }
+.socialIcons{
+  height:3rem;
+  width:auto;
+}
 

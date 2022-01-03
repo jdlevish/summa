@@ -1,6 +1,7 @@
 import React from 'react'
 import Damian from '../images/damian.jpg'
 import Tom from '../images/Tom.jpg'
+import Linked from '../images/li.png'
 
 export default function Team() {
     return (
@@ -19,6 +20,9 @@ export default function Team() {
                         <li>Thomas has worked with over 150 thousand square feet of cultivation space</li>
 
                     </ul>
+                    <span>
+                        <a href='https://www.linkedin.com/in/tom-meade-667b33154/'><img className='socialIcons' src={Linked} ></img></a>
+                    </span>
                 </div>
 
 
@@ -43,6 +47,9 @@ export default function Team() {
                                 <li>Damian’s plant knowledge and construction experience has made him a force to be reckoned with in the cannabis industry. </li>
 
                             </ul>
+                            <span>
+                                <a href='https://www.linkedin.com/in/damian-shroyer-5153a0b7/'><img className='socialIcons' src={Linked} ></img></a>
+                            </span>
                         </div>
 
                     </div>
